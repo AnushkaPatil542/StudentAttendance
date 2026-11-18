@@ -22,7 +22,7 @@ function addStudent() {
     let name = document.getElementById("studentName").value.trim();
 
     if (name === "") {
-        alert("Enter student name");
+        alert("Enter Student name");
         return;
     }
 
